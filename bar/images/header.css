@@ -1,0 +1,315 @@
+/******************** header *****************************/
+body {
+	margin: 0; padding: 0;
+	font:Arial, Helvetica, sans-serif;
+	background: #ddd url(body_bg.gif) repeat-x;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	font-size:12px;
+	position: relative;
+}
+#header {
+	background: url(header_bg.gif) no-repeat center top;
+	padding-top: 120px;
+}
+#header .disclaimer {
+	color: #999;
+	padding: 100px 0 7px 0;
+	text-align: right;
+	display: block;
+	position: absolute;
+	top: 0; right: 0;
+}
+#header .disclaimer a {	color: #ccc;}
+ul.topnav {
+	list-style: none;
+	padding: 0 20px;	
+	margin: 0;
+	float: left;
+	width: 920px;
+	background: #222;
+	font-size: 1.2em;
+	background: url(topnav_bg.gif) repeat-x;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 15px 0 0;
+	position: relative; 
+}
+ul.topnav li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	background: url(topnav_hover.gif) no-repeat center top;
+}
+ul.topnav li span { 
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} 
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; 
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border: 1px solid #111;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; 
+	border-bottom: 1px solid #444; 
+	clear: both;
+	width: 170px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	background: #333 url(dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { 
+	background: #222 url(dropdown_linkbg.gif) no-repeat 10px center; 
+}
+#header img {
+	margin: 20px 0 10px;
+}
+/******************** /header *****************************/
+
+/******************** header_login *****************************/
+.header_login_all{
+	width:960px;
+	margin:0 auto;
+	}
+
+#page_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	top: -32px;
+	z-index:2;
+}
+#header_login {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 135px;
+	background: #3f3f3f url(images/header.png) no-repeat center;
+	position: relative;
+	border-bottom: 1px solid #4a4a4a;
+}
+#header_login h1 {
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 30px;
+	font-size: 40px;
+	color: white;
+}
+#header_login h2 {
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #7e7e7e;
+}
+hr#header_login_stripe {
+	height: 10px;
+	position: relative;
+	top: -7px;
+	border: none;
+	color: #ddd;
+}
+.panel_button {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color:#000;
+	top: 1px;
+	width: 100px;
+	height: 25px;
+	z-index: 20;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+	cursor: pointer;
+}
+
+.panel_button a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.panel_button a:hover {
+	color: #999999;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	text-align: center;
+}
+#toppanel {
+	position: absolute;
+	width: 960px;
+	left: 0px;
+	z-index: 25;
+	text-align: center;
+
+}
+#panel {
+	width: 960px;
+	position: relative;
+	top: 1px;
+	height: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	overflow: hidden;
+	text-align: left;
+}
+#panel_contents {
+	background: black;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+	height:350px;
+	width: 960px;
+	position: absolute;
+	z-index: -1;
+}
+#panel h1 {
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: white;
+	font-weight: normal;
+	line-height: 35px;
+	top: 10px;
+}
+#panel h2 {
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #447c6f;
+	line-height: 25px;
+	font-size: 16px;
+	position: absolute;
+	top: 60px;
+	left: 350px;
+}
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	position: relative;
+	top: 90px;
+	text-align: left;
+	color: #545454;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-bottom: 30px;
+}
+.border {
+	border: 15px #1d1d1d solid;
+}
+img.border {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 8px;
+}
+img.border_pic {
+	border: 15px #1d1d1d solid;
+	position: absolute;
+	top: 110px;
+	float: left;
+	margin-left: 150px;
+	width: 250px;
+	height: 150px;
+	z-index: 30;
+}
+div#login {
+	width: 240px;
+	height: 150px;
+	position: absolute;
+	right: 150px;
+	top: 110px;
+	background: #46392f;
+	text-align: left;
+	padding-left: 10px;
+}
+div#login p {
+	color: #CCCCCC;
+	font-family: Century Gothic, Georgia, "Times New Roman", Times, serif;
+	line-height: 25px;
+}
+div#login input#username {
+	position: relative;
+	width:150px;
+}
+div#login input#password {
+	position: relative;
+	width:150px;
+}
+div#login input#login_btn {
+	border: 1px #899690  dotted;
+	cursor: pointer;
+	position: relative;
+	top: 30px;
+	left: 86px;
+	width:80px;
+}
+.panel_button1 {
+	margin: 0 auto;
+	position: relative;
+	background-color:#000;
+	top: 1px;
+	width: 960px;
+	height: 25px;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+	cursor: pointer;
+	color:#FFF;
+	text-align:center;
+}
+
+.panel_button1 a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	position: relative;
+	top: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.panel_button1 a:hover {
+	color: #999999;
+}
+
+/******************** /header_login *****************************/
+
+.font_xc{font-size:12px; }

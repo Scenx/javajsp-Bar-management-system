@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<style type="text/css">
+/* Reset style */
+* { margin:0; padding:0; word-break:break-all; }
+body { background:#FFF; color:#333; font:12px/1.6em Helvetica, Arial, sans-serif; }
+	h1, h2, h3, h4, h5, h6 { font-size:1em; }
+a { color:#0287CA; text-decoration:none; }
+	a:hover { text-decoration:underline; }
+ul, li { list-style:none; }
+fieldset, img { border:none; }
+legend { display:none; }
+em, strong, cite, th { font-style:normal; font-weight:normal; }
+input, textarea, select, button { font:12px Helvetica, Arial, sans-serif; }
+table { border-collapse:collapse; }
+html { overflow:-moz-scrollbars-vertical; } /*Always show Firefox scrollbar*/
+
+/* iFocus style */
+#ifocus {
+	width:618px;
+	height:256px;
+	margin:0 auto;
+	border:1px solid #DEDEDE;
+	background:#F8F8F8;
+}
+	#ifocus_pic {
+	display:inline;
+	position:relative;
+	float:left;
+	width:510px;
+	height:256px;
+	overflow:hidden;
+	margin:0px 0 0 0px;
+}
+		#ifocus_piclist {
+	position:absolute;
+	height: 1117px;
+}
+		#ifocus_piclist li { width:510px; height:256px; overflow:hidden; }
+		#ifocus_piclist img {width:510px; height:254px;}
+		
+	#ifocus_btn {
+	display:inline;
+	float:right;
+	width:91px;
+	margin:12px 9px 0 0;
+}
+		#ifocus_btn li { width:91px; height:57px; cursor:pointer; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50); }
+		#ifocus_btn img { width:75px; height:45px; margin:7px 0 0 11px; }
+		#ifocus_btn .current { background: url(images/ifocus_btn_bg.gif) no-repeat; opacity:1; -moz-opacity:1; filter:alpha(opacity=100); }
+	#ifocus_opdiv {
+	position:absolute;
+	left:2px;
+	bottom:3px;
+	width:510px;
+	height:35px;
+	background:#000;
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=50);
+	margin-top: 5px;
+}
+	#ifocus_tx {
+	position:absolute;
+	left:9px;
+	bottom:10px;
+	color:#FFF;
+}
+		#ifocus_tx .normal { display:none; }
+</style>
+
+<script type="text/javascript" src="js/show.js"></script>
+</head>
+
+<body><div align="center">
+
+<div id="ifocus">
+	<div id="ifocus_pic">
+		<div id="ifocus_piclist" style="left:0; top:0;">
+			<ul>
+				<li><a href="#" target="_blank"><img src="images/01.jpg" alt="雪花啤酒" /></a></li>
+				<li><a href="#" target="_blank"><img src="images/02.jpg" alt="燕京啤酒" /></a></li>
+				<li><a href="#" target="_blank"><img src="images/03.jpg" alt="燕京啤酒" /></a></li>
+				<li><a href="#" target="_blank"><img src="images/04.jpg" alt="酒吧环境" /></a></li>
+			</ul>
+		</div>
+		<div id="ifocus_opdiv"></div>
+		<div id="ifocus_tx">
+			<ul>
+				<li class="current">雪花啤酒-陪伴你我左右</li>
+				<li class="normal"> 百威啤酒-酒吧中的金牌</li>
+				<li class="normal"> 百威啤酒-你我的最爱</li>
+				<li class="normal"> 酒吧环境-有你才有我</li>
+			</ul>
+		</div>
+	</div>
+	<div id="ifocus_btn">
+		<ul>
+			<li class="current"><img src="images/btn_01.jpg" alt="雪花啤酒" /></li>
+			<li class="normal"><img src="images/btn_02.jpg" alt="燕京啤酒" /></li>
+			<li class="normal"><img src="images/btn_03.jpg" alt="燕京啤酒" /></li>
+			<li class="normal"><img src="images/btn_04.jpg" alt="酒吧环境" /></li>
+		</ul>
+	</div>
+</div>
+
+  <!--ifocus end-->
+
+</div>
+
+</body>
+</html>

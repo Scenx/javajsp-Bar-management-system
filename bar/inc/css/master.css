@@ -1,0 +1,37 @@
+/* CSS Document */
+*{padding:0px; margin:0px;line-height:1.8em;}
+/* bodycss*/
+body{font-family: Arial, Tahoma;font-size: 12px; background:#0B2438; color:#545454; text-align:center; margin:0 auto;}
+a{text-decoration: none;} 
+a:link {color: #545454;}
+a:visited {color:#545454;}
+a:hover{ text-decoration:underline; color:#CC0000;}
+a:active {color: #333;}
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+img{border:0px;}
+
+.news{
+	background:url(../img/w_25.gif) no-repeat 0 0;
+	width:340px;
+	height:258px;
+	margin:0 auto;
+}
+.news_title{ width:325px; margin:0 auto; height:30px; line-height:30px; font-size:14px; font-weight:bold; color:#237BAF;}
+.span1{ float:left; width:auto; line-height:38px; margin-left:30px;}
+.span2{ float:right; width:auto;}
+.news_content{ width:320px; margin:0 auto; height:212px; padding-top:10px; color:#CC0000;}
+
+.p03{ background-color:#EEF3FD;}
+.p01{ border-left:#FFFFFF solid 1px; border-right:#FFFFFF solid 1px; border-top:#FFFFFF solid 1px; border-bottom:#EBEBEB dashed 1px; width:310px; height:24px; text-align:right; text-indent:10px; padding:0 5px; background-image:url(../img/02420534.gif); background-repeat:no-repeat; background-position:4px 7px;}
+.p02{ border:#2392D2 solid 1px; width:310px; height:24px; text-align:right; padding:0 5px;background:url(../img/20060905030521360.gif) no-repeat 4px 6px #DAF2FE; text-indent:10px; }
+
+.span01{ width:20px; height:20px; background:#F49A4C; display:block; float:left; text-align:left;}
+.news_content p a,.news_content p a:visited{ float:left; width:225px; height:22px; line-height:22px; overflow:hidden; text-align:left; text-decoration:none;}
+.news_content p a:hover{ text-decoration:none;}
+
+.info{ width:500px; margin:20px auto 0; height:auto; padding:10px; background:#EEE; text-align:left;}
+
+/*标题提示文字定义*/
+body div#tooltip { position:absolute; z-index:1000; max-width:300px; width:auto!important; width:auto; background:#006CDB; border:#FEFFD4 solid 1px; text-align:left; padding:3px;}
+body div#tooltip p { margin:0;padding:0; color:#FFFFFE;font:12px verdana,arial,sans-serif;}
+body div#tooltip p em { display:block;margin-top:3px; color:#f60;font-style:normal; font-weight:bold;}
